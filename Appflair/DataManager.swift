@@ -51,7 +51,6 @@ class DataManager {
                     existingCarEntity.carDescription = car.description
                     existingCarEntity.images = car.images.joined(separator: " ")
                 } else {
-                    // Car doesn't exist in persistent store, create new entity and save
                     let carEntity = CarEntity(context: context)
                     carEntity.id = Int32(car.id)
                     carEntity.createdAt = car.createdAt
