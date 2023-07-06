@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		9A1C60BA2A55A4360000A481 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1C60B92A55A4360000A481 /* AppDelegate.swift */; };
 		9A1C60BC2A55A4360000A481 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1C60BB2A55A4360000A481 /* SceneDelegate.swift */; };
-		9A1C60BE2A55A4360000A481 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1C60BD2A55A4360000A481 /* ViewController.swift */; };
+		9A1C60BE2A55A4360000A481 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1C60BD2A55A4360000A481 /* FeedViewController.swift */; };
 		9A1C60C12A55A4360000A481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A1C60BF2A55A4360000A481 /* Main.storyboard */; };
 		9A1C60C32A55A4380000A481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A1C60C22A55A4380000A481 /* Assets.xcassets */; };
 		9A1C60C62A55A4380000A481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A1C60C42A55A4380000A481 /* LaunchScreen.storyboard */; };
+		9A1C60CF2A55A6DE0000A481 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1C60CE2A55A6DE0000A481 /* Car.swift */; };
+		9A1C60D12A55A7F30000A481 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1C60D02A55A7F30000A481 /* DetailViewController.swift */; };
+		9A1C60D32A55A8400000A481 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1C60D22A55A8400000A481 /* DataManager.swift */; };
+		9A1C60D62A55A94D0000A481 /* CarModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A1C60D42A55A94D0000A481 /* CarModel.xcdatamodeld */; };
+		9ADF2E5D2A55D6B500D8E4A5 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADF2E5C2A55D6B500D8E4A5 /* UIImageViewExtension.swift */; };
 		E6687A1DE6167B67944A7F78 /* Pods_Appflair.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9915C31AFE913F03C1BB31B1 /* Pods_Appflair.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,11 +28,16 @@
 		9A1C60B62A55A4360000A481 /* Appflair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appflair.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A1C60B92A55A4360000A481 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A1C60BB2A55A4360000A481 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9A1C60BD2A55A4360000A481 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A1C60BD2A55A4360000A481 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		9A1C60C02A55A4360000A481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A1C60C22A55A4380000A481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A1C60C52A55A4380000A481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A1C60C72A55A4380000A481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A1C60CE2A55A6DE0000A481 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		9A1C60D02A55A7F30000A481 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9A1C60D22A55A8400000A481 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		9A1C60D52A55A94D0000A481 /* CarModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarModel.xcdatamodel; sourceTree = "<group>"; };
+		9ADF2E5C2A55D6B500D8E4A5 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +73,14 @@
 		9A1C60B82A55A4360000A481 /* Appflair */ = {
 			isa = PBXGroup;
 			children = (
+				9A1C60CE2A55A6DE0000A481 /* Car.swift */,
 				9A1C60B92A55A4360000A481 /* AppDelegate.swift */,
 				9A1C60BB2A55A4360000A481 /* SceneDelegate.swift */,
-				9A1C60BD2A55A4360000A481 /* ViewController.swift */,
+				9A1C60BD2A55A4360000A481 /* FeedViewController.swift */,
+				9A1C60D02A55A7F30000A481 /* DetailViewController.swift */,
+				9ADF2E5C2A55D6B500D8E4A5 /* UIImageViewExtension.swift */,
+				9A1C60D22A55A8400000A481 /* DataManager.swift */,
+				9A1C60D42A55A94D0000A481 /* CarModel.xcdatamodeld */,
 				9A1C60BF2A55A4360000A481 /* Main.storyboard */,
 				9A1C60C22A55A4380000A481 /* Assets.xcassets */,
 				9A1C60C42A55A4380000A481 /* LaunchScreen.storyboard */,
@@ -88,7 +103,6 @@
 				583B64A01C88DFE437E6752D /* Pods-Appflair.debug.xcconfig */,
 				7390F8624746962C91A73599 /* Pods-Appflair.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -207,8 +221,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A1C60BE2A55A4360000A481 /* ViewController.swift in Sources */,
+				9A1C60D62A55A94D0000A481 /* CarModel.xcdatamodeld in Sources */,
+				9A1C60BE2A55A4360000A481 /* FeedViewController.swift in Sources */,
+				9A1C60D32A55A8400000A481 /* DataManager.swift in Sources */,
 				9A1C60BA2A55A4360000A481 /* AppDelegate.swift in Sources */,
+				9ADF2E5D2A55D6B500D8E4A5 /* UIImageViewExtension.swift in Sources */,
+				9A1C60D12A55A7F30000A481 /* DetailViewController.swift in Sources */,
+				9A1C60CF2A55A6DE0000A481 /* Car.swift in Sources */,
 				9A1C60BC2A55A4360000A481 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,6 +384,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -394,6 +414,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -429,6 +450,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9A1C60D42A55A94D0000A481 /* CarModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9A1C60D52A55A94D0000A481 /* CarModel.xcdatamodel */,
+			);
+			currentVersion = 9A1C60D52A55A94D0000A481 /* CarModel.xcdatamodel */;
+			path = CarModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9A1C60AE2A55A4360000A481 /* Project object */;
 }
